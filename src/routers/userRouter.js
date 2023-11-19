@@ -2,7 +2,7 @@ import express from "express";
 
 const userRouter = express.Router();
 
-userRouter.post("/", (req, res) => {
+userRouter.get("/", (req, res) => {
     res.json({ message: "user" });
 });
 
